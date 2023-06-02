@@ -11,12 +11,12 @@ env_variables:
     # Replace user, password, database, and instance connection name with the values obtained
     # when configuring your Cloud SQL instance.
     SQLALCHEMY_DATABASE_URI: >-
-      mysql+pymysql://root:griffith_cloud_learning@/emotions?unix_socket=/cloudsql/ultimate-bit-387412:australia-southeast1:googlecloudsql
+      mysql+pymysql://root:griffith_cloud_learning@/emotions?unix_socket=/cloudsql/sharp-haven-388601:australia-southeast1:cloudsql
 #[END gae_flex_mysql_env]
 
 #[START gae_flex_mysql_settings]
 # Replace project and instance with the values obtained  when configuring your
 # Cloud SQL instance.
 beta_settings:
-    cloud_sql_instances: ultimate-bit-387412:australia-southeast1:googlecloudsql
+    cloud_sql_instances: sharp-haven-388601:australia-southeast1:cloudsql
 #[END gae_flex_mysql_settings]
